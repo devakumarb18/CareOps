@@ -1,73 +1,91 @@
-# Welcome to your Lovable project
+# 🚀 CareOps — Unified Operations Platform
 
-## Project info
+CareOps is a modern, end-to-end operations platform designed for service-based businesses.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+It replaces disconnected tools for leads, bookings, forms, communication, and inventory with one unified dashboard.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🌟 Core Features
 
-**Use Lovable**
+### 🔹 Onboarding Wizard
+Step-by-step setup for:
+- Workspace creation
+- Email integration
+- Services & availability
+- Contact forms
+- Inventory
+- Staff permissions
+- Activation validation
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+### 📊 Business Dashboard
+Real-time visibility into:
+- Today's bookings
+- Upcoming bookings
+- No-shows
+- Unanswered messages
+- Pending forms
+- Low-stock inventory
+- Critical alerts
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 💬 Unified Inbox
+- One contact = one conversation
+- Automated + manual messages
+- AI-powered reply suggestions
+- Full history preserved
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+### 📅 Booking System
+- Public booking pages (no login required)
+- Auto-create contact & booking
+- Confirmation & reminder emails
+- Status management (Pending / Confirmed / Completed / No-Show)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 📄 Post-Booking Forms
+- Custom form templates
+- Linked to services
+- Completion tracking
+- Automated reminders
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 📦 Inventory Management
+- Resource tracking per service
+- Auto-deduction on completion
+- Low-stock alerts
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 🤖 AI Features
+- Smart Reply Suggestions
+- Conversation Summaries
+- Booking Risk Indicators
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🛠 Tech Stack
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
+- React + Vite
 - TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Tailwind CSS + shadcn/ui
+- Supabase (Auth + Database + Realtime)
+- Resend (Email Integration)
+- AI via Edge Functions
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🚀 Local Development
 
-## Can I connect a custom domain to my Lovable project?
+```bash
+git clone https://github.com/devakumarb18/CareOps.git
+cd CareOps
+npm install
+npm run dev
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
