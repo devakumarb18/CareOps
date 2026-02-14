@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: process.env.VITE_BASE_PATH || "/harmony-ops-main", // 👈 VERY IMPORTANT (Fixes white screen on Vercel)
+  base: "/", // 👈 VERY IMPORTANT (Fixes white screen on Vercel)
 
   server: {
     host: "::",
