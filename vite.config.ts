@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/", // 👈 VERY IMPORTANT (Fixes white screen on Vercel)
+  base: process.env.VITE_BASE_PATH || "/careops", // 👈 VERY IMPORTANT (Fixes white screen on Vercel)
 
   server: {
     host: "::",
